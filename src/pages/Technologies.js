@@ -41,7 +41,7 @@ const Technologies = () => {
           <h1 className="sm:text-3xl text-2xl font-bold title-font mb-12 text-gray-600 underline underline-offset-8">
             Technologies
           </h1>
-          <div className="flex flex-wrap -m-4 mt-5">
+          <div className="flex flex-wrap -m-4 mt-5 justify-center items-center">
             {contentArray.map(({ id, image, title, border}) => (
               <div key={id} className="lg:w-1/4 sm:w-1/3 lg:mb-0 mb-6 p-4">
                 <div className="h-full text-center">
